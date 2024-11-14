@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/soldeUpdateInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Update solde"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/typeUpdateInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Update type (COURANT/EPARGNE)"
+        android:inputType="text"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/updateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Account" />
+</LinearLayout>
